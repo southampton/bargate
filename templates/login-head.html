@@ -1,11 +1,21 @@
-		<style type="text/css">
-		@media (min-width: 768px)
-		{
-			body
-			{
-				background-color: none;
-				background-image: url('/static/images/login.jpg');
-				background-size: cover;	
-			}
-		}
-		</style>
+<style type="text/css">
+.desktop-logo {
+	position: fixed;
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+}
+
+.mobile-logo {
+	text-align: center;
+	margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+	body {
+		background-color: none;
+		background-image: url('/static/images/soton/login/bgimage{{range(1,17)|random}}.jpg');
+		background-size: cover;
+	}
+}
+</style>

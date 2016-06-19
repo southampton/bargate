@@ -1,5 +1,1 @@
-bargate is an open source modern web interface for CIFS/SMB file servers.
-
-For more information visit: https://bargate.io
-
-To report an issue use GitHub: https://github.com/divad/bargate/issues/new
+This repository holds the University of Southampton specific customisations to bargate for fwa.soton.ac.uk. This repository is only useful to others as an example of how to customise bargate.
